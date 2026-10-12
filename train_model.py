@@ -17,7 +17,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 DATA_PATH = Path("student_performance_raw.csv")
-TARGET_COLUMN = os.getenv("TARGET_COLUMN", "G3")
+TARGET_COLUMN = os.getenv("TARGET_COLUMN", "final_result")
 MODEL_PATH = Path("student_result_model.pkl")
 
 
