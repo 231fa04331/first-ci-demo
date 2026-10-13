@@ -52,7 +52,7 @@ jobs:
           if-no-files-found: error
 
       - name: Build Docker image
-        run: docker build -t student-performance-ml:latest .
+        run: run: docker build -f docker -t student-performance-ml:latest .
 
       - name: Start container
         run: |
